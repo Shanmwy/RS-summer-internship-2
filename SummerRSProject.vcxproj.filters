@@ -39,6 +39,12 @@
     <ClInclude Include="MyPoint.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="MyMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DensitySegmentationDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SummerRSProject.cpp">
@@ -57,6 +63,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="MyPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMatrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DensitySegmentationDlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

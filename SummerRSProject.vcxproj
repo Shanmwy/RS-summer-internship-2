@@ -20,10 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{17CF8226-9806-43B6-B9B4-48FEEEEC090E}</ProjectGuid>
+    <ProjectGuid>{0C52CB6A-E6A0-4BEA-8B89-B232C75006CC}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
     <RootNamespace>SummerRSProject</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -183,8 +183,10 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="DensitySegmentationDlg.h" />
     <ClInclude Include="FineCorrectionDlg.h" />
     <ClInclude Include="ImageDlg.h" />
+    <ClInclude Include="MyMatrix.h" />
     <ClInclude Include="MyPoint.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
@@ -193,8 +195,10 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DensitySegmentationDlg.cpp" />
     <ClCompile Include="FineCorrectionDlg.cpp" />
     <ClCompile Include="ImageDlg.cpp" />
+    <ClCompile Include="MyMatrix.cpp" />
     <ClCompile Include="MyPoint.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
