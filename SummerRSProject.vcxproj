@@ -23,7 +23,7 @@
     <ProjectGuid>{0C52CB6A-E6A0-4BEA-8B89-B232C75006CC}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
     <RootNamespace>SummerRSProject</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -183,7 +183,6 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="CanopyDlg.h" />
     <ClInclude Include="DensitySegmentationDlg.h" />
     <ClInclude Include="FineCorrectionDlg.h" />
     <ClInclude Include="ImageDlg.h" />
@@ -196,7 +195,6 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CanopyDlg.cpp" />
     <ClCompile Include="DensitySegmentationDlg.cpp" />
     <ClCompile Include="FineCorrectionDlg.cpp" />
     <ClCompile Include="ImageDlg.cpp" />
